@@ -3,23 +3,38 @@
 |<p>Deep Learning, Machine Learning Experiments </p><p>Bánóczy Martin, Durkó Vince</p>|
 | :- |
 ||
-|<p><a name="_page0_x34.00_y468.92"></a>Abstract </p><p>This paper is a documentation for the repository below, where we tried to gain a deeper understanding of the more basic deep learning and machine learning concepts and experiment with these techniques on different datasets. </p><p>[https://github.com/polymons/Deep-Learning-Experiments ](https://github.com/polymons/Deep-Learning-Experiments)</p>|
+|<p><a name="_page0_x34.00_y468.92"></a>Abstract </p><p>This paper is a documentation for the repository, where we tried to gain a deeper understanding of the more basic deep learning and machine learning concepts and experiment with these techniques on different datasets.
 
-[Abstract .................1 ](#_page0_x34.00_y468.92)[Network traffic analysis ..........................3](#_page2_x34.00_y87.92)
+[Abstract .................1 ](#_page0_x34.00_y468.92)
+[Network traffic analysis .3 ](#_page2_x34.00_y87.92)
+[Visualize the data .......3 ](#_page2_x34.00_y176.92)
+[Preprocessing ............5 ](#_page4_x34.00_y87.92)[Processing categorical features .......6 ](#_page5_x34.00_y87.92)
+[Models ...................8 ](#_page7_x34.00_y87.92)
+[Random Forest Regressor ..8 ](#_page7_x34.00_y113.92)
+[Elastic Net ..............9 ](#_page8_x34.00_y87.92)
+[SVR ......................9 ](#_page8_x34.00_y353.92)
+[Evaluation ...............9 ](#_page8_x34.00_y600.92)
+[Google Play Store app data analysis .........10 ](#_page9_x34.00_y87.92)
+[Data visualization ..........................10 ](#_page9_x34.00_y176.92)
+[Preprocessing ...............................12 ](#_page11_x34.00_y87.92)
+[Models ......................................12 ](#_page11_x34.00_y154.92)
+[Multi-Layer Perceptron Regressor ............12 ](#_page11_x34.00_y180.92)
+[Support Vector Regression ...................12 ](#_page11_x34.00_y405.92)
+[Evaluation ..................................13 ](#_page12_x34.00_y87.92)
+[Spam Or Ham .................................14 ](#_page13_x34.00_y87.92)
+[Preprocessing ...............................14 ](#_page13_x34.00_y162.92)
+[Models ......................................15 ](#_page14_x34.00_y98.92)
+[Sequential ..................................15 ](#_page14_x34.00_y137.92)
+[Using Tokenizer .............................15 ](#_page14_x34.00_y474.92)
+[Evaluation ..................................16 ](#_page15_x34.00_y87.92)
+[Classification statistics ...................16 ](#_page15_x34.00_y503.92)
+[Classification report .......................17 ](#_page16_x34.00_y87.92)
+[ROC .........................................17 ](#_page16_x34.00_y402.92)
+[Precision-Recall curve ......................18 ](#_page17_x34.00_y87.92)
+[Manual testing ..............................19 ](#_page18_x34.00_y87.92)
+[Conclusion ..................................20 ](#_page19_x34.00_y87.92)
+[Resources ...................................21 ](#_page20_x34.00_y87.92)
 
-[Visualize the data ............................3 ](#_page2_x34.00_y176.92)[Preprocessing .5 ](#_page4_x34.00_y87.92)[Processing categorical features .......6 ](#_page5_x34.00_y87.92)[Models ............8 ](#_page7_x34.00_y87.92)[Random Forest Regressor ........8 ](#_page7_x34.00_y113.92)[Elastic Net ...............................9 ](#_page8_x34.00_y87.92)[SVR ..........9 ](#_page8_x34.00_y353.92)[Evaluation .......9](#_page8_x34.00_y600.92)
-
-[Google Play Store app data analysis .....10](#_page9_x34.00_y87.92)
-
-[Data visualization ..........................10 ](#_page9_x34.00_y176.92)[Preprocessing ...............................12 ](#_page11_x34.00_y87.92)[Models ..........12](#_page11_x34.00_y154.92)
-
-[Multi-Layer Perceptron Regressor ...........................12 ](#_page11_x34.00_y180.92)[Support Vector Regression .....12 ](#_page11_x34.00_y405.92)[Evaluation .....13](#_page12_x34.00_y87.92)
-
-[Spam Or Ham ......14](#_page13_x34.00_y87.92)
-
-[Preprocessing ...............................14 ](#_page13_x34.00_y162.92)[Models ..........15 ](#_page14_x34.00_y98.92)[Sequential ..............................15 ](#_page14_x34.00_y137.92)[Using Tokenizer .....................15 ](#_page14_x34.00_y474.92)[Evaluation .....16 ](#_page15_x34.00_y87.92)[Classification statistics ...........16 ](#_page15_x34.00_y503.92)[Classification report ...............17 ](#_page16_x34.00_y87.92)[ROC .......17 ](#_page16_x34.00_y402.92)[Precision-Recall curve ............18 ](#_page17_x34.00_y87.92)[Manual testing ..............................19](#_page18_x34.00_y87.92)
-
-[Conclusion ...........20 ](#_page19_x34.00_y87.92)[Resources ............21](#_page20_x34.00_y87.92)
 # <a name="_page2_x34.00_y87.92"></a>Network traffic analysis
 **Objective:** Clustering the data and predictive analysis of cyberattacks and type of network traffic based on processing the dataset.
 ### <a name="_page2_x34.00_y176.92"></a>Visualize the data 
