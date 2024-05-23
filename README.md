@@ -1,10 +1,3 @@
-﻿
-
-|<p>Deep Learning, Machine Learning Experiments </p><p>Bánóczy Martin, Durkó Vince</p>|
-| :- |
-||
-|<p><a name="_page0_x34.00_y468.92"></a>Abstract </p><p>This paper is a documentation for the repository, where we tried to gain a deeper understanding of the more basic deep learning and machine learning concepts and experiment with these techniques on different datasets.
-
 ---
 [Network traffic analysis](#_page2_x34.00_y87.92) </br>
 [Visualize the data](#_page2_x34.00_y176.92)</br>
